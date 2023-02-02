@@ -590,10 +590,5 @@ h5{
   .form{
     grid-template-columns: repeat(1, 1fr); 
   }
-  .email{
-    width: 180px;
-  }
-  /* .signPass .text-input{
-    width: 180px;
-  } */
+ 
 }
