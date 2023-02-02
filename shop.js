@@ -25,7 +25,6 @@ asyncFunction()
       let prc =document.createElement("prc");
       let p = document.createElement('p');
       let e= document.createElement('i');
-      // let accor = document.createElement("accordion");
       prc.textContent = `${element.price}$`;
       img.src = element.image_link;
       h4.textContent = `${element.name} `;

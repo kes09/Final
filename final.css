@@ -260,18 +260,16 @@ h3{
 }
 
 .fa-eye-slash {
-  position: absolute;
-  /* padding: 3px; */
+  position: fixed;
   font-size: 18px;
   padding-left: 3px;
   color: #2a85a8 ;
 }
 .text-input{
   text-align: center;
-  /* width: 200px; */
 }
 .fa-eye{
-  position: absolute;
+  position: fixed;
   padding-left: 3px;
   font-size: 18px;
   color: #2a85a8 ;
@@ -583,7 +581,7 @@ h5{
   .email{
     width: 180px;
   }
-  /* .signPass .text-input{
+  .signPass .text-input{
     width: 180px;
-  } */
+  }
 }
