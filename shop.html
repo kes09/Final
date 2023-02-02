@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="cookie.css" />
+    <link rel="stylesheet" href="final.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div id= "mainheder" class="heder">
+        <a href="index.html"><h2> Beauty Cosmetics </h2></a>
+        <div  id= "menu" class="menu" >
+        <nav class="navigation" id="navBar">
+          <ul class="nav-main" id="nav-main">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="tips.html">Tips & Trends</a></li>
+            <li><a href="about.html">About us</a></li>
+          </ul>
+          <a href="index.html"><img src="https://www.pngkit.com/png/full/487-4876214_white-lips-icon-png.png" class="nav-logo" ></a>
+          <ul class="nav-forma " id="nav-forma">
+            <li><a href="join.html">Join</a></li>
+            <li><a href="">|</a></li>
+            <li><a href="sign.html">Sign In</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div class="burger-bar " id="burgerBar">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+      </div>
+    </header>
+    <style>
+        .search-block{
+          background-image: url('shop-larger.jpg');
+          background-repeat: no-repeat;
+          opacity: 0.9;
+          padding-top: 30px;
+          padding-bottom: 20px;
+          background-size: cover;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          .search-block{
+            background-image: url('shop-large.jpg')
+          }
+        }
+        @media (min-width: 481px) and (max-width: 767px) {
+          .search-block{
+            background-image: url('shop-meddium.jpg')
+          }
+        }
+        @media (min-width: 320px) and (max-width: 480px) {
+          .search-block{
+            background-image: url('shop-small.jpg')
+          }
+        }
+    </style>
+    <button id="top" class="top"><i class="fa-sharp fa-solid fa-angle-up"></i></button>
+     <section>
+      <div class="container">
+        <div class="search-block">
+          <h3> What are you looking for?</h3>
+          <input class="search" type="search" id="filter" placeholder="Search" />
+        </div>
+        <div class="products">
+        <ul id="result" class="list">
+        </ul>
+      </div>
+      </div>
+    </section>
+    <div class="wrapper">
+      <div>
+        <i class="bx bx-cookie"></i>
+        <h2>Cookies Consent</h2>
+      </div>
+
+      <div class="data">
+        <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
+      </div>
+
+      <div class="buttons">
+        <button class="button" id="acceptBtn">Accept</button>
+        <button class="button" id="declineBtn">Decline</button>
+      </div>
+    </div>
+    <footer>
+      <nav class="footer" id="footerBar">
+        <ul class="footer-main" id="footer-main">
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">|</a></li>
+          <li><a href="">Accessibility Statement</a></li>
+          <li><a href="">|</a></li>
+          <li><a href="">Terms of Use</a></li>
+          <li><a href="">|</a></li>
+          <li><a href="">AdChoices</a></li>
+          <li><a href="">|</a></li>
+          <li><a href="">Notice at Collection</a></li>
+          <li><a href="">|</a></li>
+          <li><a href="">Content Permission Terms</a></li>
+          <li><a href="" class="fa-brands fa-facebook"></a></li>
+          <li><a href="" class="fa-brands fa-instagram"></a></li>
+          <li><a href="" class="fa-brands fa-tiktok"></a></li>
+          <li><a href="" class="fa-brands fa-youtube"></a></li>
+          <li><a href="" class="fa-brands fa-twitter"></a></li>
+        </ul>
+      </nav>
+     </footer>
+</body>
+  <script src="final.js"></script>
+  <script src="shop.js"></script>
+  <script src="cookie.js"></script>
+</body>
+
+</html>
