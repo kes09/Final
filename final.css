@@ -260,19 +260,22 @@ h3{
 }
 
 .fa-eye-slash {
-  position: fixed;
-  font-size: 18px;
-  padding-left: 3px;
+  position: absolute;
+  font-size: 16px;
   color: #2a85a8 ;
+  right: 3%;
 }
 .text-input{
   text-align: center;
+  width: 100%;
 }
 .fa-eye{
-  position: fixed;
+  position: absolute;
   padding-left: 3px;
-  font-size: 18px;
+  font-size: 16px;
   color: #2a85a8 ;
+  padding-right: 3px;
+  right: 3%;
 }
 .form {
   margin: 20px;
@@ -294,6 +297,7 @@ h3{
   flex-direction: column;
   justify-content: flex-end;
   margin: 15px;
+  position: relative;
 }
 .error-text{
   display: block;
@@ -335,9 +339,11 @@ h5{
   flex-direction: column;
   align-items: center;
 }
-.signPass .text-input{
+.signPass {
   width: 300px;
+  position: relative;
 }
+
 .lipphoto{
   margin-top: 50px;
 }
