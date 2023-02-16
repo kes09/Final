@@ -1,3 +1,4 @@
+"use strict";
 
 var splide = new Splide( '.splide', {
   type      : 'loop',

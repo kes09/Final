@@ -1,3 +1,4 @@
+"use strict";
 
 // burger-bar
 let navigation = document.getElementById('navBar');

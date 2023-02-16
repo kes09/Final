@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Join</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-    <link rel="stylesheet" href="cookie.css" />
-    <link rel="stylesheet" href="final.css" />
+    <link rel="stylesheet" href="CSS/cookie.css" />
+    <link rel="stylesheet" href="CSS/final.css" />
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
   </head>
   <body>
@@ -66,16 +66,18 @@
           <input type="text" id="surname" name="surname" />
         </div>
         <div class="form-wraper">
-          <label for="passw1">Password</label>
+          <label for="passw1">Password
           <span class="error-text" id="error_mypassword"></span>
           <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="toggleIcon1"></i>
           <input class="text-input password-input" type="password" id="passw1" name="mypassword" autocomplete="off" placeholder=" Password" />
+          </label>
         </div>
         <div class="form-wraper">
-          <label for="passw2">Repeat Password</label>
+          <label for="passw2">Repeat Password
           <span class="error-text" id="error_mypassword2"></span>
           <i class="fa-solid fa-eye-slash show-icon toggle-icon" id="toggleIcon2"></i>
           <input class="text-input password-input" type="password" id="passw2" name="mypassword2" autocomplete="off" placeholder=" Repeat Password"/>
+         </label>
         </div>
         <div class="emailField">
           <label for="myemail">Email</label>
@@ -123,7 +125,7 @@
       </div>
     </div>
     <footer>
-      <nav class="footer" id="footerBar">
+      <div class="footer" id="footerBar">
         <ul class="footer-main" id="footer-main">
           <li><a href="">Privacy Policy</a></li>
           <li><a href="">|</a></li>
@@ -142,12 +144,10 @@
           <li><a href="" class="fa-brands fa-youtube"></a></li>
           <li><a href="" class="fa-brands fa-twitter"></a></li>
         </ul>
-      </nav>
+      </div>
      </footer>
 </body>
-  <script src="final.js"></script>
-  <script src="join.js"></script>
-  <script src="cookie.js"></script>
-</body>
-
+  <script src="JS/final.js"></script>
+  <script src="JS/join.js"></script>
+  <script src="JS/cookie.js"></script>
 </html>

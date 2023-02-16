@@ -1,3 +1,5 @@
+"use strict";
+
 // togglr Show/hide
 let passwordInputs = document.querySelectorAll(".password-input");
 let toggleIcons = document.querySelectorAll(".toggle-icon");

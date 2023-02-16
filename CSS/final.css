@@ -262,8 +262,9 @@ h3{
 .fa-eye-slash {
   position: absolute;
   color: #2a85a8 ;
+  top: 100%;
+  transform: translateY(-100%);
   right: 4%;
-  bottom: -3%;
 }
 .text-input{
   text-align: center;
@@ -272,8 +273,9 @@ h3{
 .fa-eye{
   position: absolute;
   color: #2a85a8 ; 
-  right: 4%; 
-  bottom: -3%; 
+  top: 100%;
+  transform: translateY(-100%);
+  right: 4%;
 }
 .form {
   margin: 20px;

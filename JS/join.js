@@ -1,3 +1,5 @@
+"use strict";
+
 let formRegistration = document.getElementById("form-registration");
 let strongRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
 let emailPattern =

@@ -1,3 +1,5 @@
+"use strict";
+
 // filter
 let filter = document.getElementById("filter");
 let result = document.getElementById("result");
